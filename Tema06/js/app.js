@@ -134,13 +134,35 @@ function anadirColor() {
 }
 
 function quitarUltimo() {
+  if (colores.length === 0) {
+    avisar2("No hay colores que quitar.");
+    console.log("Ejercicio 2: Lista vacia");
+    return;
+  }
+
+  const eliminado = colores.pop();
+  mostrarColores();
+
+  console.log("Ejercicio 2: color eliminado", eliminado);
   // TODO: si la lista está vacía, avisa con avisar2() y no hagas nada más.
   // TODO: si no, saca el último con pop(), vuelve a pintar la lista y di en la consola qué color ha salido.
+
+}
+  
+function quitarPrimero() {
+  if (colores.length === 0) {
+    avisar2("No hay colores para quitar.");
+    console.log("Ejercicio 2: lista vacía");
+    return;
+  }
+
+  const eliminado = colores.shift();
+  mostrarColores();
+
+  console.log("Ejercicio 2: primer color eliminado", eliminado);
 }
 
-function quitarPrimero() {
-  // TODO: lo mismo que quitarUltimo(), pero sacando el primero con shift().
-}
+
 
 mostrarColores();   // pinta los tres colores de partida nada más cargar
 
