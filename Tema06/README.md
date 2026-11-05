@@ -19,41 +19,83 @@
 
 <img src="capturas/a-pagina.png" alt="La página recién cargada con mi nombre en la navbar" width="600">
 
-[Qué se ve nada más cargar: tu nombre, los colores, la tabla de productos y las ciudades.]
+Se crea un objeto estudiante con los datos del alumno.
+
+Se utilizan propiedades, métodos y this para mostrar la ficha, aumentar la edad y eliminar la propiedad del curso.
+
+También se utiliza delete para borrar una propiedad del objeto.
 
 ### b) Ejercicios 1 y 2: la ficha y los colores
 
 <img src="capturas/b-ej1-ej2.png" alt="La ficha de estudiante y la lista de colores" width="600">
 
-[La ficha después de cumplir años y la lista de colores después de añadir y quitar alguno. Qué método has usado para cada cosa.]
+Se trabaja con un array de colores que puede modificarse mediante distintos botones.
+
+Se utilizan los métodos push(), pop() y shift() para añadir colores y eliminar elementos del principio o del final del array.
 
 ### c) Ejercicio 3: el catálogo ordenado por precio
 
-![La tabla de productos ordenada por precio](capturas/c-ej3-ordenado.png)
+<img src="capturas/c-ej3-ordenado.png" alt="La tabla de productos ordenada por precio" width="600">
 
-[Cómo es tu función de comparación y por qué ordenas una copia.]
+Se trabaja con un array de objetos que representan productos con su nombre y precio.
+
+Se utilizan los siguientes métodos:
+
+sort() para ordenar los productos por precio.
+
+filter() para mostrar los productos que cuestan más de 50.
+
+find() para buscar un producto por su nombre.
+
+Para mostrar los productos se crean elementos HTML mediante JavaScript.
+
+
 
 ### d) Ejercicio 4: las notas y la media
 
-![Las notas con su color y la media](capturas/d-ej4-notas.png)
+<img src="capturas/d-ej4-notas.png" alt="Las notas con su color y la media" width="600">
 
-[Cinco notas como mínimo, aprobadas y suspensas, con su media.]
+Se crea un objeto alumno que almacena las notas en un array.
+
+El usuario puede introducir notas entre 0 y 10, visualizar las notas aprobadas en verde y las suspensas en rojo, calcular la media y borrar todas las notas.
+
+Se utilizan push(), reduce(), Number.isNaN() y toFixed(2).
 
 ### e) Ejercicio 5: los tres métodos seguidos
 
-![El resultado de filter, map y reduce encadenados](capturas/e-ej5-cadena.png)
+<img src="capturas/e-ej5-cadena.png" alt="El resultado de filter, map y reduce encadenados" width="600">
 
-[Qué hace cada paso y qué número sale al final.]
+Se utiliza un array con los números del 1 al 10 para practicar tres métodos de JavaScript:
+
+map() para obtener el doble de cada número.
+
+filter() para seleccionar los números pares.
+
+reduce() para sumar todos los elementos.
+
+También se combinan los tres métodos para seleccionar los pares, multiplicarlos por dos y sumarlos, obteniendo como resultado 60.
 
 ### f) Ejercicio 6: después de splice y de buscar una ciudad
 
-![Las ciudades después de splice y una búsqueda](capturas/f-ej6-splice.png)
+<img src="capturas/f-ej6-splice.png" alt="Las ciudades después de splice y una búsqueda" width="600">
 
-[Qué ciudades ha quitado splice, en qué posición ha quedado la que has buscado y por qué.]
+Se trabaja con un array de ciudades españolas.
+
+Se utilizan los métodos:
+
+slice() para obtener una parte del array sin modificarlo.
+
+splice() para eliminar elementos del array original.
+
+includes() para comprobar si existe una ciudad.
+
+indexOf() para obtener la posición de una ciudad.
+
+El operador de expansión (...) para restaurar el array original.
 
 ## Reflexión
 
-[De 5 a 8 líneas: ¿qué métodos de los que has usado cambian el array original y cuáles devuelven uno nuevo? Pon como ejemplo lo que pasa en el ejercicio 6 con slice y con splice, y explica por qué en el ejercicio 3 ordenas una copia.]
+
 
 ## Fuentes
 
@@ -61,4 +103,4 @@
 
 ## Uso de IA
 
-[Si has usado IA: qué herramienta, para qué y qué hiciste después con su respuesta. Si no la has usado, borra este apartado.]
+
